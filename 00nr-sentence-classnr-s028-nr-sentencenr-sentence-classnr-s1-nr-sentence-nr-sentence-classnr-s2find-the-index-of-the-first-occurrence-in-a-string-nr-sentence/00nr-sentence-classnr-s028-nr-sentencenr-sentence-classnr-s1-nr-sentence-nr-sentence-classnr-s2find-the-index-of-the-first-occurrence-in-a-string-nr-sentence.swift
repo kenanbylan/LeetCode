@@ -1,6 +1,10 @@
 class Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {
         
+        //example: haystack = kenan --- needle "an"
+        // i == 0  "k"
+        // i == 3  "a"
+        
         let hayStackCount: Int = haystack.count 
         let needleCount: Int = needle.count 
 
