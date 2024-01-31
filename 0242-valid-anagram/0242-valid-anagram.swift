@@ -1,5 +1,7 @@
 class Solution {
     func isAnagram(_ s: String, _ t: String) -> Bool {
+
+        /*
         var charCountS: [Character: Int] = [:]
         var charCountT: [Character: Int] = [:]
         
@@ -11,7 +13,26 @@ class Solution {
             charCountT[char, default: 0] += 1
         }
         
+        print("charCountS: ", charCountS)
+        print("charCountT: ", charCountT)
+        
         return charCountS == charCountT
+        */
+        
+        let sortS = s.sorted()
+        let sortT = t.sorted()
+         
+        return sortS == sortT 
+        
     }
 }
 
+
+//NOT: Pseudocode
+
+/*
+if
+
+
+
+*/
