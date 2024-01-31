@@ -17,6 +17,7 @@ class Solution {
                 //    return true
                // }
                 
+            
                 if String(repeating: subStr, count: numberRepeat) == s {
                     return true
                 }
