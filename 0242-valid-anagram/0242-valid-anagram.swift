@@ -1,6 +1,7 @@
 class Solution {
     func isAnagram(_ s: String, _ t: String) -> Bool {
 
+        //Character array with solve
         /*
         var charCountS: [Character: Int] = [:]
         var charCountT: [Character: Int] = [:]
@@ -19,11 +20,12 @@ class Solution {
         return charCountS == charCountT
         */
         
+        
+        //Easy solve
         let sortS = s.sorted()
         let sortT = t.sorted()
          
-        return sortS == sortT 
-        
+        return sortS == sortT    
     }
 }
 
@@ -31,8 +33,10 @@ class Solution {
 //NOT: Pseudocode
 
 /*
-if
-
-
+First the number of times the character appearing in the string is calcucalated
+and then their equaility is checked.
 
 */
+
+
+//Kenan Baylan
