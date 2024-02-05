@@ -17,3 +17,10 @@ class Solution {
         return newDigitsArray
     }
 }
+
+
+//NOTE: The Problem wat not easy
+
+
+
+//Author: kenan baylan
